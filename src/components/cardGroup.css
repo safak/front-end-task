@@ -1,0 +1,101 @@
+.congratulations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.congratulationsTitle {
+  font-size: 100px;
+  margin-bottom: 50px;
+  color: #3b0078;
+}
+
+.congratulationsDesc {
+  font-size: 32px;
+}
+
+.cardGroup {
+  height: 13vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cardGroupDragArea {
+  width: 13vw;
+  height: 13vw;
+  border: 3px dashed lightblue;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  height: 15vw;
+}
+
+.current {
+  width: 8vw;
+  height: 8vw;
+  margin-right: 10px;
+  background-color: gray;
+}
+
+.initialCards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.card {
+  width: 13vw;
+  height: 13vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.empty {
+  width: 13vw;
+  height: 13vw;
+  background-color: white;
+}
+
+.hold {
+  border: solid #ccc 4px;
+}
+
+.hovered {
+  background-color: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}
+
+.card {
+  width: 13vw;
+  height: 13vw;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 7px -4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.letter {
+  width: 50%;
+  height: 50%;
+}

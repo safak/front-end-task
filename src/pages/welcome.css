@@ -1,0 +1,55 @@
+.welcome {
+    height: 100vh;
+    background-image: linear-gradient(
+      to top,
+      #f1f3f7,
+      #f5f6f9,
+      #f9f9fb,
+      #fcfcfd,
+      #ffffff
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .greeting {
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .input {
+    width: 30vw;
+    border: none;
+    border-bottom: 1px solid #b8becb;
+    background: transparent;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  .input::placeholder {
+    color: #b8becb;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .startButton {
+    margin-top: 30px;
+    border: 1px solid lightgray;
+    background-color: white;
+    color: #3b0078;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .startButton:focus {
+    outline: none;
+  }
+  
