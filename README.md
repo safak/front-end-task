@@ -12,5 +12,5 @@ Application starts with [welcome screen](https://github.com/safak/front-end-task
 - The game starts with an empty user array and random shuffled main array.
 - Score starts counting after clicking any cards and activates "isStarted" value.
 - If a card goes a empty area on user array, it means a new movement.
-- Logsaw checks every movement. If movement card doesn't match with the same posiion item in the main array, Logsaw adds 10 more additional seconds.
+- Logsaw checks every movement. If the movement card doesn't match with the same position item in the main array, Logsaw adds 10 more additional seconds.
 - When every position letters match each other, game ends and starts again after 10 seconds with same user.
